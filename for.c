@@ -15,7 +15,9 @@ int main(){
         *(p+1)=i;
     for(i=0;i<10;i++)
         printf("a[%d]=%d\n",i,*(p+i));
-    
+
+    printf("\n%d ",*p);
+
     return 0;
 
 }
